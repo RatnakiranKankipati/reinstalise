@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 30px;
+    align-items: center;
+
+}
+.first-2{
+    padding-right: 200px;
+}
+.first-3 img{
+    width: 20px;
+    margin-left: 50px;
+    align-items: center;
+}
+.first-3.add img {
+    width: 30px;
+    transition: all 0.5s;
+}
+.f-second1{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+.f-second1 img{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 50%;
+    border: none;
+}
+.f-second1 .content{
+    padding-right: 200px;
+    padding-top: 50px;
+}
+.content .name{
+    display: flex;
+    gap: 20px;
+}
+.content .f{
+    display: flex;
+    gap: 50px;
+    padding-top: 30px;
+}
+.content .i{
+    padding-top: 30px;
+    font-size: 20px;
+}
+/* section1 is completed */
+.co{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.slider{
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+.slider img{
+    width: 100%;
+    object-fit: cover;
+}
+.left{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 20;
+    width: 40px;
+    height: 50px;
+    cursor: pointer;
+}
+.left-arrow{
+    color: white;
+}
+.right{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 20;
+    width: 40px;
+    height: 50px;
+    cursor: pointer;
+}
+.right-arrow{
+    color: white;
+}
